@@ -13,7 +13,7 @@ Here are some of the features it provides,
 6. Humidity in percentages.
 7. Wind speed in km/hr.
 8. 5-day weather forecast.
-9. Responsive web Design.
+9. Responsive web Design (Displays the main weather_container and the 5_day forecast without any irrelevant gap between them, Stretches both to occupy 100% of the viewport height and width.)
 
 Web App is live on https://darshan-1820.github.io/Techplement/
 
