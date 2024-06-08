@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="weather-container">
+        <h2 class="text">Weather App</h2>
+
+        <div class="search">
+            <input type="text" placeholder="Enter city">
+            <button type="button">Search</button>
+        </div>
+
+        <div class="weather">
+            <img src="" alt="Weather Icon" id="weather-icon">
+            <h2 class="text city">City</h2>
+            <h3 class="text temp">Temperature</h3>
+            <div class="current-date-time text">
+                <p id="current-day-time" class="text"></p>
+            </div>
+            <p class="text day-night">Day/Night</p>
+            <div class="moreInfo">
+                <div class="col">
+                    <img src="./img/humidity.png" alt="Humidity Icon">
+                    <div>
+                        <p class="humidity text">Humidity</p>
+                        <p class="text">Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="./img/wind.png" alt="Wind Icon">
+                    <div>
+                        <p class="wind text">Wind Speed</p>
+                        <p class="text">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="forecast-container">
+
+        <div class="cards">
+            <h2 class="day-name text">Sunday</h2>
+            <div class="card-icon">
+                <img src="./img/clear-day.png">
+            </div>
+            <div class="day-temp">
+                <h3 class="text temp">Temperature</h3>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
